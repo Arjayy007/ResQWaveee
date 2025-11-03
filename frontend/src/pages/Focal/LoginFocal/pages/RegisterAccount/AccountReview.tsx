@@ -1,6 +1,6 @@
-import { useNavigate } from "react-router-dom";
 import CircleCheck from "@/components/ui/CircleCheck";
 import { FocalHeader } from "@/pages/Focal/LoginFocal/components/FocalHeader";
+import { useNavigate } from "react-router-dom";
 
 export default function AccountReview() {
   const navigate = useNavigate();
@@ -12,7 +12,7 @@ export default function AccountReview() {
   <div className="flex flex-col items-center justify-center w-full max-w-lg">
           <div className="flex flex-col items-center justify-center mb-2">
             <div className="mb-6 p-4 rounded-md" style={{ background: 'rgba(255, 187, 0, 0.10)' }}>
-              <CircleCheck size={48} color="#FFD600" checkColor="#232323" />
+              <CircleCheck size={48}/>
             </div>
             <h1 className="text-4xl font-bold text-white text-center mb-9">We’ll review your account!</h1>
           </div>
